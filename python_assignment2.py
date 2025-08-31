@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 # Soru 1 – Sayı Analizi
-
-
-# In[3]:
 
 
 sayi = int(input("Bir sayı giriniz: "))
@@ -25,13 +21,13 @@ else:
     print("Sıfır")
 
 
-# In[5]:
+
 
 
 # Soru 2 – Harf Frekansı (String)
 
 
-# In[7]:
+
 
 
 kelime = input("Bir kelime giriniz: ")
@@ -47,13 +43,13 @@ for harf in kelime:
 print(frekans)
 
 
-# In[9]:
+
 
 
 # Soru 3 – Şifre Kontrolü (String Metotları)
 
 
-# In[11]:
+
 
 
 sifre = input("Şifrenizi giriniz: ")
@@ -73,13 +69,12 @@ else:
         print("- En az 1 rakam olmalı")
 
 
-# In[13]:
+
 
 
 #Soru 4 – Liste İşlemleri
 
 
-# In[15]:
 
 
 liste = [12, 4, 9, 25, 30, 7, 18]
@@ -93,26 +88,26 @@ for l in liste:
 print("Ortalamadan büyük sayılar: ", buyuk_sayilar)
 
 
-# In[17]:
+
 
 
 # Soru 5 – Nested Loop (Desen)
 
 
-# In[19]:
+
 
 
 for i in range(1, 6):
     print("*" * i)
 
 
-# In[21]:
+
 
 
 # Soru 6 – While Döngüsü
 
 
-# In[23]:
+
 
 
 toplam = 0
@@ -132,13 +127,13 @@ else:
     print("Hiç sayı girilmedi.")
 
 
-# In[25]:
+
 
 
 # Soru 7 – Palindrom Kontrolü
 
 
-# In[27]:
+
 
 
 kelime = input("Bir kelime giriniz: ")
@@ -149,26 +144,24 @@ else:
     print(kelime, "Palindrom Değil ")
 
 
-# In[29]:
+
 
 
 # Soru 8 - List Comprehension
 
 
-# In[31]:
+
 
 
 liste = [i**2 for i in range(1, 101) if i % 3 == 0 and i % 5 == 0]
 print("Hem 3'e hem 5'e bölünebilenlerin kareleri:", liste)
 
 
-# In[33]:
 
 
 # Soru 9 - String İşlemleri
 
 
-# In[35]:
 
 
 cumle = "python summer camp "
@@ -178,13 +171,9 @@ yeni_cumle = " ".join(yeni_kelimeler)
 print(yeni_cumle)
 
 
-# In[37]:
-
 
 # Mini Proje - Film Yorumu Analizi
 
-
-# In[39]:
 
 
 yorumlar = [
